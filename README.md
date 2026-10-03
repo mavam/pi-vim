@@ -433,7 +433,7 @@ Give insert a solid mode color, let normal defer to thinking, and make both mode
 
 ### modeColors
 
-`piVim.modeColors` accepts Pi theme foreground tokens. Missing, invalid, or unknown tokens use the defaults above.
+`piVim.modeColors` accepts Pi theme foreground tokens. Missing, invalid, or unknown tokens use the defaults above. INSERT defaults to panel colors.
 
 `visual` colors both VISUAL and V-LINE (the footer label already tells them apart); its `customMessageLabel` default is the purple/violet token both bundled themes ship, keeping visual distinct from normal's `borderAccent`. Override it like any other mode.
 
